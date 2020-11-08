@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Goldman", cursive;
+}
+
+.navbar {
+  background-color: #22668a;
+  color: white;
+}
+
+.category-aktif {
+  background: #22668a !important;
+  color: white;
+}
+
+.btn-primary {
+  background: #22668a !important;
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.hasil {
+  height: 350px;
+}
+
+.menu {
+  height: 600px;
+}
+
+@media only screen and(max-height:1200px) {
+  .hasil {
+    height: 350px;
+  }
+
+  .menu {
+    height: 800px;
+  }
+}
